@@ -7,17 +7,16 @@ body {
 .top-container {
   padding: 10px;
   height: 240px;
-  background: red;
+
 }
 .top-left {
-  background-color:pink;
+  background-color:grey;
   float: left;
   height: 180px;
   width: 24%;
   padding: 1%;
 }
 .top-center {
-  background-color:grey;
   padding: 10px;
   float: left;
   height: 180px;
@@ -26,39 +25,36 @@ body {
 
 }
 .top-right {
-  background-color:pink;
+  background-color:grey;
   float: left;
   height: 180px;
   width: 24%;
   padding: 1%;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
 }
 
-h2 {
-  text-align: center;
-}
 
 .top-footer {
-  background-color:blue;
+  background-color:grey;
   float: left;
   height: 20px;
   width: 12%;
   margin: 1% 2%;
-  border-bottom: 1px solid black;
   border-radius: 12px;
 }
 
+ 
 .middle-container{
   padding: 1%;
   height: 640px;
-  background: blue;
+
 }
 
 .middle-left {
-  background-color:pink;
+
   float: left;
   height: 79%;
   width: 46%;
@@ -66,12 +62,12 @@ h2 {
 }
 
 .middle-topleft{
-  background-color:blue;
+  background-color:grey;
   height: 48%;
   width: 100%;
 }
 .middle-centreleft{
-  background-color:blue;
+  background-color:grey;
   height: 50px;
   width: 45%;
   margin: 10% 4% 5% 4%;
@@ -79,7 +75,7 @@ h2 {
 }
 
 .middle-bar2{
-  background-color:red;
+  background-color:grey;
   height: 5px;
   width: 45%;
   margin: 1% 0% 1% 4%;
@@ -87,14 +83,13 @@ h2 {
 }
 
 .middle-halfbar2 {
-    background-color:red;
+    background-color:grey;
     height: 5px;
     width: 22%;
     margin: 1% 0% 1% 4%;
     border-radius: 5px;
 }
 .middle-right {
-  background-color:green;
   float: left;
   height: 79%;
   width: 46%;
@@ -102,20 +97,18 @@ h2 {
 }
 
 .middle-text {
-  background-color:grey;
   height: 33%;
   width: 100%;
   margin: 10px;
 }
 .middle-pic {
-  background-color:pink;
+  background-color:grey;
   float:left;
   height: 90%;
   width: 35%;
 }
 
 .middle-texttwo {
-  background-color:black;
   float:left;
   height: 60%;
   width: 40%;
@@ -123,16 +116,48 @@ h2 {
 }
 
 .middle-bar{
-  background-color:red;
+  background-color:grey;
   height: 5px;
   width: 130%;
   margin: 2% 0% 1% 4%;
   border-radius: 5px;
 }
 .middle-halfbar {
-    background-color:red;
+    background-color:grey;
     height: 5px;
     width: 65%;
     margin: 2% 0% 1% 4%;
     border-radius: 5px;
+}
+
+.bottom-container {
+  padding: 10px;
+  height: 240px;
+}
+
+.pic{
+  background-color:grey;
+  float: left;
+  height: 165px;
+  width: 21.5%;
+  padding: 1%;
+  margin-left: 1%
+}
+.text{
+  background-color:grey;
+  float: left;
+  height: 5px;
+  width: 21.5%;
+  padding: 1%;
+  margin-top: 1%;
+  margin-left: 1%;
+  border-radius: 12px;
+}
+
+hr {
+  width: 96%;
+  color: grey;
+  height: 3px;
+  background-color:grey;
+
 }
